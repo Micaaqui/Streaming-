@@ -1,0 +1,157 @@
+:root {
+    --texto-primario: #FFFFFF;
+    --texto-secundario: #C0C0C0;
+    --texto-terciario: #EC2F46;
+    --botao-primario: #167BF7; 
+    --background-color: #00030C; 
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--texto-primario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+ 
+.container__botao{
+    background-color: var(--botao-primario);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--texto-primario);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--texto-primario);
+}
+
+.container__aviso{
+    color: var(--texto-secundario);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container__secundario{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5em 8em;
+}
+
+.imagem__secundaria{
+    max-width: 50%;
+    margin-right: auto;
+    margin: 5em 8em;
+}
+
+.container__descricao{
+    max-width: 50%;
+    padding: 2em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--texto-primario);
+    margin-bottom: 0 1em;
+}
+
+.descricao__texto{
+    color: var(--texto-secundario);
+}
+
+.botao__terciario{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.dispositivos{
+    text-align: center;
+    margin: 12em 8em;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+
+.lista__item{
+    font-size: 32px;
+}
+
+.rodape__logo{
+    margin: auto;
+}
+
+.rodape__lista{
+    list-style-type: none;  
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    color: var(--texto-primario); 
+    text-decoration: none; 
+    margin-left: 1em;
+}
+
+.lista__link a:hover{
+    color: var(--botao-primario);
+}
+
+.rodape__texto{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    text-align: center;
+    margin: 1em 17em;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
