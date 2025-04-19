@@ -1,9 +1,9 @@
 <hr>
-<p align="center">Um site para divulgação da Alura Plus, uma plataforma de streaming com os conteúdos educacionais da Alura.</p>
+<p align="center">A website to promote Alura Plus, a streaming platform with Alura's educational content.</p>
 
-## Tecnologias
+## Technologies
 * HTML
 * CSS
 
 ## Screenshots
-![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+![Screenshot of Alura Plus home screen](https://imgur.com/nKUf7MK.png)
